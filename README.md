@@ -5,7 +5,7 @@ The Proxy pattern suggests that you create a new proxy class with the same inter
 
 This pattern solve problem such as: you have a massive object that consumes a vast amount of system resources. You need it from time to time, but not always.
 ### 2. Where should we use this pattern (examples)?
-When we need to have the exact copy of the object
+The proxy can pass the request to the service object only if the client’s credentials match some criteria.
 ### 3. Pros and Cons
 Pros:
 - You can control the service object without clients knowing about it
